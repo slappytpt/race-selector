@@ -1,0 +1,39 @@
+h2 {
+	font-family: "Open Sans", "Lucida Grande", "Helvetica Neue", Arial;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Open Sans", "Lucida Grande", "Helvetica Neue", Arial;
+}
+
+.detailPanel{
+
+	background-color: #809eb5;
+	border-radius: 8px;
+	padding: 5px 5px 15px 15px; 
+}
+
+.details{
+	font-family: "Open Sans", "Lucida Grande", "Helvetica Neue", Arial;
+	font-size: 16px;
+	padding-bottom: 20px;
+
+}
+
+.raceLink{
+	text-decoration: none;
+	background-color: #d7e3ed;
+	border-radius: 3px;
+	border: 3px;
+	border-color: #000;
+	padding: 8px 8px 8px 8px;
+	cursor: pointer;
+}
+
+
+
+.label{
+	font-weight: bolder;
+
+}

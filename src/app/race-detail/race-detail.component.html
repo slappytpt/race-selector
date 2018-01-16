@@ -1,0 +1,16 @@
+<div class="detailPanel" *ngIf="race">
+
+  <h2>{{ race.name }}</h2>
+
+<div class="details">
+	<span class="label">Race Type:</span> {{race.category}}<br>
+	<span class="label">Distance:</span> {{ race.raceDistance }}<br>
+	<span class="label">Date:</span> {{ race.dateOfRace | date}}<br>
+	<span class="label">Zip:</span> {{ race.zipCode }}<br>
+	<span class="label">Price:</span> <b>{{race.price | currency}}</b>
+</div>
+ <div >
+	<a><button class="raceLink" (click)="goToLink()">Web Site</button></a>
+	<button class="raceLink" (click)="addToSeason()">Add to Season</button>
+	<button class="raceLink" (click)="goBack()">go back</button>
+</div>

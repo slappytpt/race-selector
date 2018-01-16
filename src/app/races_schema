@@ -1,0 +1,10 @@
+<races>
+<race>
+<id>1</id>
+<name>race name</name>
+<state>md</state>
+<dateofrace>1/2/2018</dateofrace>
+<racedistance>70.3</racedistance>
+<link>www.link.com</link>
+</race>
+</races>
